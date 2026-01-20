@@ -1,0 +1,247 @@
+{
+  "burgerHero": {
+    "bioLink": "CrazyBurger",
+    "title1": "CRAZY CRAZY",
+    "title2": "BURGER!",
+    "subtitle1": "ORGANIC BURGER FROM",
+    "subtitle2": "100% LOCAL INGREDIENTS",
+    "instagram": "Instagram",
+    "bookTable": "Book Table",
+    "facebook": "Facebook",
+    "lineOfficial": "Map"
+  },
+  "heroSection": {
+    "title1": "NTP Taxi Private",
+    "title2": "All Over Thailand",
+    "subtitle": "Taxi service to 77 provinces, 24-hour taxi service, airport taxi booking, express taxi within 30 minutes",
+    "feature1": "Car arrives 30 minutes early",
+    "feature2": "Express taxi within 30 minutes",
+    "feature3": "Taxi service throughout Thailand, 77 provinces",
+    "line": "LINE",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "tiktok": "TikTok",
+    "service": "Service",
+    "service24": "24/7",
+    "popularRoutes": "Popular Routes",
+    "routes": {
+      "pattaya": "Bangkok → Pattaya",
+      "ayutthaya": "Bangkok → Ayutthaya",
+      "huahin": "Bangkok → Hua Hin",
+      "khaoyai": "Bangkok → Khao Yai",
+      "rayong": "Bangkok → Rayong",
+      "airport": "Bangkok → Suvarnabhumi / Don Mueang Airport"
+    },
+    "cta1": "Which province do you want to go to?",
+    "cta2": "Send us a message, we can go anywhere in Thailand"
+  },
+  "vehiclesSection": {
+    "title": "Service Vehicles",
+    "subtitle": "New cars, clean, professional drivers",
+    "bookNow": "Book Now",
+    "ctaTitle": "Ready to serve every day",
+    "ctaSubtitle": "Contact us today to book your vehicle",
+    "vehicles": {
+      "sedan": {
+        "name": "Sedan Car",
+        "seats": "4 seats",
+        "features": ["Short trips", "Good sound system", "Smooth suspension"]
+      },
+      "suv": {
+        "name": "SUV Car",
+        "seats": "7 seats",
+        "features": ["Spacious interior", "Family-friendly", "Maximum comfort"]
+      },
+      "alphard": {
+        "name": "Toyota Alphard",
+        "seats": "10 seats",
+        "features": ["VIP seats", "Family-friendly", "Maximum comfort"]
+      },
+      "van": {
+        "name": "Van Car",
+        "seats": "15 seats",
+        "features": ["VIP seats", "Suitable for large groups", "Maximum comfort"]
+      }
+    }
+  },
+  "reviewsSection": {
+    "title": "Customer Reviews",
+    "averageRating": "Average rating 5.0 from 200+ reviews",
+    "viewMore": "View more reviews here",
+    "reviews": {
+      "review1": {
+        "name": "Sompratana",
+        "location": "Bangkok → Ayutthaya",
+        "comment": "Good service, pleasant conversation. Will use the service again.",
+        "date": "4 months ago"
+      },
+      "review2": {
+        "name": "Salminen",
+        "location": "Bangkok → Pattaya",
+        "comment": "The ride was very good, the driver drove safely. The car was very clean and in good condition. The driver was very friendly. I would recommend this company to everyone.",
+        "date": "2 months ago"
+      },
+      "review3": {
+        "name": "Mr. Prayut",
+        "location": "",
+        "comment": "Highly recommend. Good service, driver doesn't talk too much, polite, helps with luggage up and down. Will use the service again.",
+        "date": "5 months ago"
+      }
+    }
+  },
+  "finalCTASection": {
+    "title1": "Ready to serve every day",
+    "title2": "24 hours a day",
+    "subtitle1": "Book in advance or call immediately",
+    "subtitle2": "Covering all areas throughout Thailand",
+    "messageButton": "Send us a message",
+    "callButton": "Call for consultation",
+    "lineIdLabel": "LINE ID:",
+    "phoneLabel": "Call:",
+    "footerText": "Let us take care of all your travels"
+  },
+  "gallerySection": {
+    "title": "Service Gallery",
+    "subtitle": "Our trusted customers",
+    "ctaPrefix": "More than",
+    "ctaSuffix": "customers trust our service",
+    "images": {
+      "image1": {
+        "alt": "Customer renting a private taxi from Bangkok to Pattaya 🚘🏖️",
+        "location": "Bangkok → Pattaya",
+        "customer": "Customer renting a private taxi from Bangkok to Pattaya 🚘🏖️"
+      },
+      "image2": {
+        "alt": "Customer renting a private taxi from Bangkok to Laem Sok (Koh Kood) 🚘🏖️",
+        "location": "Bangkok → Laem Sok (Koh Kood)",
+        "customer": "Customer renting a private taxi from Bangkok to Laem Sok (Koh Kood) 🚘🏖️"
+      },
+      "image3": {
+        "alt": "Customer renting a private taxi from Bangkok to Ko Chang 🚘🏖️",
+        "location": "Bangkok → Ko Chang",
+        "customer": "Customer renting a private taxi from Bangkok to Ko Chang 🚘🏖️"
+      },
+      "image4": {
+        "alt": "Customer renting a private taxi from Hua Hin to Suvarnabhumi Airport 🚘🏖️",
+        "location": "Hua Hin → Suvarnabhumi Airport",
+        "customer": "Customer renting a private taxi from Hua Hin to Suvarnabhumi Airport 🚘🏖️"
+      },
+      "image5": {
+        "alt": "Customer renting a private taxi from Bangkok to Khao Yai 🚘🏖️",
+        "location": "Bangkok → Khao Yai",
+        "customer": "Customer renting a private taxi from Bangkok to Khao Yai 🚘🏖️"
+      },
+      "image6": {
+        "alt": "Customer renting a private taxi from Kanchanaburi to Suvarnabhumi Airport 🚘🏖️",
+        "location": "Kanchanaburi → Suvarnabhumi Airport",
+        "customer": "Customer renting a private taxi from Kanchanaburi to Suvarnabhumi Airport 🚘"
+      },
+      "image7": {
+        "alt": "Customer renting a private van for one day trip 🚘",
+        "location": "One day trip Bangkok",
+        "customer": "Customer renting a private van for one day trip 🚘"
+      },
+      "image8": {
+        "alt": "Customer renting a private taxi from Bangkok to Ko Chang - Ayutthaya 🚘🏖️",
+        "location": "Ko Chang - Ayutthaya",
+        "customer": "Customer renting a private taxi from Bangkok to Ko Chang - Ayutthaya 🚘🏖️"
+      },
+      "image9": {
+        "alt": "Customer renting for one day trip to Pattaya 🚘",
+        "location": "One day trip Pattaya",
+        "customer": "Customer renting for one day trip to Pattaya 🚘"
+      }
+    }
+  },
+  "oneDayTripSection": {
+    "title": "One Day Trips or Pickup & Drop-off",
+    "subtitle": "Explore Thailand's highlights or enjoy safe, comfortable transportation services.",
+    "tripTitle": "One Day Trip Packages",
+    "pickupTitle": "Pickup & Drop-off Services",
+    "bookNow": "Book Now",
+    "trips": {
+      "bangkok": {
+        "title": "Bangkok City Tour",
+        "description": "Discover Bangkok's highlights: Grand Palace, Wat Arun, and Damnoen Saduak floating market.",
+        "duration": "5-10 hours",
+        "price": "From 2,500 THB",
+        "features": [
+          "Luxury van with comfortable seating",
+          "English/Thai speaking guide",
+          "Lunch included",
+          "Travel insurance"
+        ]
+      },
+      "pattaya": {
+        "title": "Pattaya Beach Tour",
+        "description": "Adventure in Pattaya: Nong Nooch Garden, Pattaya Beach, and floating market.",
+        "duration": "5-10 hours",
+        "price": "From 3,500 THB",
+        "features": [
+          "Luxury sedan",
+          "Scenic viewpoints",
+          "Fresh seafood",
+          "Snorkeling equipment"
+        ]
+      },
+      "ayutthaya": {
+        "title": "Ayutthaya Historical Tour",
+        "description": "Learn about Ayutthaya's history: Wat Phra Ram, Wat Ratchawora Vihara, and museums.",
+        "duration": "5-10 hours",
+        "price": "From 2,800 THB",
+        "features": [
+          "Spacious SUV",
+          "Knowledgeable guide",
+          "Temple entry included",
+          "Authentic Thai food"
+        ]
+      }
+    },
+    "pickup": {
+      "airport": {
+        "title": "Airport Transfer",
+        "description": "Safe and punctual airport transfer service to/from Suvarnabhumi and Don Mueang airports.",
+        "price": "From 1,500 THB",
+        "features": [
+          "Clean vehicle with professional driver",
+          "Real-time flight tracking",
+          "Luggage assistance",
+          "Travel insurance included"
+        ]
+      },
+      "city": {
+        "title": "City Transfer",
+        "description": "Convenient pickup and drop-off services throughout Bangkok and surrounding areas.",
+        "price": "From 500 THB",
+        "features": [
+          "Various vehicle sizes available",
+          "24/7 service availability",
+          "GPS tracking system",
+          "Personalized service"
+        ]
+      }
+    },
+    "ctaTitle": "Ready to Serve Every Day",
+    "ctaSubtitle": "Contact us today to plan your dream trip"
+  },
+  "navbar": {
+    "home": "Home",
+    "vehicles": "Vehicles",
+    "onedaytrip": "One Day Trip",
+    "gallery": "Photo Gallery",
+    "reviews": "Reviews"
+  },
+  "moreRoots": {
+    "trips": {
+      "bangkok": "Bangkok → Pattaya",
+      "pattaya": "Bangkok → Pattaya",
+      "ayutthaya": "Bangkok → Ayutthaya",
+      "rayong": "Bangkok → Rayong",
+      "huahin": "Bangkok → Hua Hin",
+      "khaoyai": "Bangkok → Khao Yai",
+      "trad": "Bangkok → Trad",
+      "airport": "Bangkok → Suvarnabhumi / Don Mueang Airport",
+      "all": "All over Thailand"
+    }
+  }
+}
