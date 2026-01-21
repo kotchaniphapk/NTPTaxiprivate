@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image, { ImageProps } from 'next/image';
 import { Users, Check, Phone } from 'lucide-react';
 import { Button } from './ui/button';
 import { useTranslation } from 'react-i18next';
@@ -7,7 +7,7 @@ interface VehicleCardProps {
   name: string;
   seats: string;
   features: string[];
-  image: string;
+  image: ImageProps['src'];
 }
 
 export function VehicleCard({ name, seats, features, image }: VehicleCardProps) {
@@ -15,13 +15,14 @@ export function VehicleCard({ name, seats, features, image }: VehicleCardProps) 
   
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100 hover:border-yellow-400 flex flex-col">
-      <div className="h-44 sm:h-52 bg-gradient-to-br from-blue-50 to-gray-50 flex items-center justify-center overflow-hidden">
+      <div className="relative h-44 sm:h-52 bg-gradient-to-br from-blue-50 to-gray-50 flex items-center justify-center overflow-hidden">
         <Image
-          src={image}
+          src={image} 
           alt={name}
-          className="w-full h-full object-cover"
-          width={500}
-          height={500}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          unoptimized
         />
       </div>
       
