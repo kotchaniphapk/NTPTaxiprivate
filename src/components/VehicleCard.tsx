@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import Image from 'next/image';
 import { Users, Check, Phone } from 'lucide-react';
 import { Button } from './ui/button';
 import { useTranslation } from 'react-i18next';
@@ -16,10 +16,12 @@ export function VehicleCard({ name, seats, features, image }: VehicleCardProps) 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100 hover:border-yellow-400 flex flex-col">
       <div className="h-44 sm:h-52 bg-gradient-to-br from-blue-50 to-gray-50 flex items-center justify-center overflow-hidden">
-        <ImageWithFallback 
+        <Image
           src={image}
           alt={name}
           className="w-full h-full object-cover"
+          width={500}
+          height={500}
         />
       </div>
       

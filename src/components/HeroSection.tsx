@@ -120,7 +120,7 @@ function HeroSection() {
               <div className="relative z-10">
                 <div className="w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden border-4 sm:border-8 border-yellow-400 shadow-2xl shadow-yellow-400/30 ring-4 ring-yellow-400/20">
                   <Image 
-                    src= "/Nattapol-Hero.png"
+                    src= "/Nattapol.png"
                     alt="Taxi Driver"
                     className="w-full h-full object-contain"
                     width={400}

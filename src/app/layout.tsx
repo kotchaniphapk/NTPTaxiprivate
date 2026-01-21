@@ -10,8 +10,8 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "NTP Taxi Private",
-  description: "NTP Taxi Private",
+  title: "NTP Private Taxi",
+  description: "NTP Private Taxi",
 };
 
 export default function RootLayout({
