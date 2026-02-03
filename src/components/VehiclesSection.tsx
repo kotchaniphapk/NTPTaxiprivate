@@ -76,8 +76,7 @@ export function VehiclesSection() {
               >
                 <a href="https://line.me/ti/p/oo8YTANb1r" target="_blank" rel="noopener noreferrer">
                   <FaLine className="w-4 sm:w-5 h-4 sm:h-5" />
-                  <span className="hidden sm:inline">{t('heroSection.line')}</span>
-                  <span className="sm:hidden">LINE</span>
+                  <span className="inline">{t('heroSection.line')}</span>
                 </a>
               </Button>
               <Button 
@@ -86,8 +85,7 @@ export function VehiclesSection() {
               >
                 <a href="tel:+66614837772">
                   <Phone className="w-4 sm:w-5 h-4 sm:h-5" />
-                  <span className="hidden sm:inline">{t('heroSection.call')}</span>
-                  <span className="sm:hidden">Call</span>
+                  <span className="inline">{t('heroSection.call')}</span>
                 </a>
               </Button>
               <Button 
@@ -96,8 +94,7 @@ export function VehiclesSection() {
               >
                 <a href="https://wa.me/message/O2WMNZYDNUGFF1" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp className="w-4 sm:w-5 h-4 sm:h-5" />
-                  <span className="hidden sm:inline">{t('heroSection.whatsapp')}</span>
-                  <span className="sm:hidden">WA</span>
+                  <span className="inline">{t('heroSection.whatsapp')}</span>
                 </a>
               </Button>
               <Button 
@@ -106,8 +103,7 @@ export function VehiclesSection() {
               >
                 <a href="https://www.tiktok.com/@taxiprivatetravel24hours?_r=1&_t=ZS-93EVHNevO8i" target="_blank" rel="noopener noreferrer">
                   <FaTiktok className="w-4 sm:w-5 h-4 sm:h-5" />
-                  <span className="hidden sm:inline">{t('heroSection.tiktok')}</span>
-                  <span className="sm:hidden">WC</span>
+                  <span className="inline">{t('heroSection.tiktok')}</span>
                 </a>
               </Button>
             </div>
