@@ -56,16 +56,15 @@ function HeroSection() {
                 <span className="text-base sm:text-lg text-white">{t('heroSection.feature3')}</span>
               </div>
             </div>
-
             {/* Contact Buttons 2x2 Grid */}
-            <div className="grid grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 w-full">
               <Button 
                 asChild
                 className="bg-white/95 hover:bg-yellow-400 text-blue-900 px-4 sm:px-6 py-5 sm:py-6 rounded-xl flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:shadow-yellow-400/50 transition-all text-sm sm:text-base font-medium backdrop-blur-sm"
               >
                 <a href="https://line.me/ti/p/oo8YTANb1r" target="_blank" rel="noopener noreferrer">
                   <FaLine className="w-4 sm:w-5 h-4 sm:h-5" />
-                  {t('heroSection.line')}
+                  
                 </a>
               </Button>
               <Button 

@@ -1,17 +1,6 @@
 {
-  "burgerHero": {
-    "bioLink": "CrazyBurger",
-    "title1": "CRAZY CRAZY",
-    "title2": "BURGER!",
-    "subtitle1": "ORGANIC BURGER FROM",
-    "subtitle2": "100% LOCAL INGREDIENTS",
-    "instagram": "Instagram",
-    "bookTable": "Book Table",
-    "facebook": "Facebook",
-    "lineOfficial": "Map"
-  },
   "heroSection": {
-    "title1": "NTP Private Taxi ",
+    "title1": "NTP Taxi Thailand",
     "title2": "All Over Thailand",
     "subtitle": "Taxi service to 77 provinces, 24-hour taxi service, airport taxi booking, express taxi within 30 minutes",
     "feature1": "Car arrives 30 minutes early",

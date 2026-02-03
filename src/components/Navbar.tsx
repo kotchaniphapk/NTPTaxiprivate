@@ -38,7 +38,7 @@ export function Navbar() {
             onClick={scrollToTop}
             className="text-2xl text-white font-medium hover:text-yellow-400 transition-colors cursor-pointer"
           >
-            NTP Taxi Private
+            NTP Taxi Thailand
           </button>
         </div>
         
