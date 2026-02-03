@@ -64,7 +64,7 @@ function HeroSection() {
               >
                 <a href="https://line.me/ti/p/oo8YTANb1r" target="_blank" rel="noopener noreferrer">
                   <FaLine className="w-4 sm:w-5 h-4 sm:h-5" />
-                  
+                  {t('heroSection.line')}
                 </a>
               </Button>
               <Button 
