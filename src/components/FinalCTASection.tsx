@@ -50,6 +50,7 @@ export function FinalCTASection() {
               <span className="text-yellow-400">{t('finalCTASection.lineIdLabel')}</span> Teelake2541<br />
               <span className="text-yellow-400">{t('finalCTASection.phoneLabel')}</span> +66 614837772<br />
               <span className="text-yellow-400">TikTok:</span> <a href="https://www.tiktok.com/@taxiprivatetravel24hours?_r=1&_t=ZS-93EVHNevO8i" target="_blank" rel="noopener noreferrer">@taxiprivatetravel24hours</a><br />
+              <span className="text-yellow-400">Facebook:</span> <a href="https://www.facebook.com/profile.php?id=61558652704864" target="_blank" rel="noopener noreferrer">Ntp Taxi Thailand</a><br />
               <span className="text-yellow-400">Email:</span> Tee08042541@gmail.com
             </p>
             <p className="text-gray-300 text-sm sm:text-base mt-3 sm:mt-4">

@@ -4,7 +4,7 @@ import { VehicleCard } from './VehicleCard';
 import { useTranslation } from 'react-i18next';
 import { Button } from './ui/button';
 import { Phone, MessageCircle } from 'lucide-react';
-import { FaLine, FaWhatsapp, FaTiktok } from "react-icons/fa6";
+import { FaLine, FaWhatsapp, FaFacebook } from "react-icons/fa6";
 
 export function VehiclesSection() {
   const { t } = useTranslation();
@@ -101,9 +101,9 @@ export function VehiclesSection() {
                 asChild
                 className="bg-white hover:bg-yellow-400 text-blue-900 px-4 sm:px-6 py-5 sm:py-6 rounded-xl flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all text-sm sm:text-base border border-gray-200 hover:border-yellow-400"
               >
-                <a href="https://www.tiktok.com/@taxiprivatetravel24hours?_r=1&_t=ZS-93EVHNevO8i" target="_blank" rel="noopener noreferrer">
-                  <FaTiktok className="w-4 sm:w-5 h-4 sm:h-5" />
-                  <span className="inline">{t('heroSection.tiktok')}</span>
+                <a href="https://www.facebook.com/profile.php?id=61558652704864" target="_blank" rel="noopener noreferrer">
+                  <FaFacebook className="w-4 sm:w-5 h-4 sm:h-5" />
+                  <span className="inline">{t('heroSection.facebook')}</span>
                 </a>
               </Button>
             </div>
