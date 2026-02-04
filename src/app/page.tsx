@@ -30,6 +30,21 @@ export default function Home() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-17930048716');
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof(url) != 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                  'send_to': 'AW-17930048716/lIdoCMGervIbEMyp2-VC',
+                  'value': 1.0,
+                  'currency': 'THB',
+                  'event_callback': callback
+              });
+              return false;
+            }
+            window.gtag_report_conversion = gtag_report_conversion;
           `,
         }}
       />

@@ -3,9 +3,18 @@
 import { Button } from './ui/button';
 import { MessageCircle, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import type { MouseEvent } from 'react';
 
 export function FinalCTASection() {
   const { t } = useTranslation();
+  const handleConversion = (url: string) => (event: MouseEvent<HTMLAnchorElement>) => {
+    const report = (window as Window & { gtag_report_conversion?: (url?: string) => boolean })
+      .gtag_report_conversion;
+    if (typeof report === 'function') {
+      event.preventDefault();
+      report(url);
+    }
+  };
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-8 text-center space-y-8 sm:space-y-10">
@@ -27,7 +36,12 @@ export function FinalCTASection() {
             asChild
             className="bg-yellow-400 hover:bg-yellow-400 text-blue-900 px-8 sm:px-10 py-6 sm:py-7 rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 sm:gap-3 shadow-xl hover:shadow-2xl transition-all w-full sm:w-auto"
           >
-            <a href="https://line.me/ti/p/oo8YTANb1r" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://line.me/ti/p/oo8YTANb1r"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleConversion('https://line.me/ti/p/oo8YTANb1r')}
+            >
               <MessageCircle className="w-5 sm:w-6 h-5 sm:h-6" />
               {t('finalCTASection.messageButton')}
             </a>
@@ -36,7 +50,7 @@ export function FinalCTASection() {
             asChild
             className="bg-white hover:bg-gray-100 text-blue-900 px-8 sm:px-10 py-6 sm:py-7 rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 sm:gap-3 shadow-xl hover:shadow-2xl transition-all w-full sm:w-auto"
           >
-            <a href="tel:+66614837772">
+            <a href="tel:+66614837772" onClick={handleConversion('tel:+66614837772')}>
               <Phone className="w-5 sm:w-6 h-5 sm:h-6" />
               {t('finalCTASection.callButton')}
             </a>
@@ -50,7 +64,7 @@ export function FinalCTASection() {
               <span className="text-yellow-400">{t('finalCTASection.lineIdLabel')}</span> Teelake2541<br />
               <span className="text-yellow-400">{t('finalCTASection.phoneLabel')}</span> +66 614837772<br />
               <span className="text-yellow-400">TikTok:</span> <a href="https://www.tiktok.com/@taxiprivatetravel24hours?_r=1&_t=ZS-93EVHNevO8i" target="_blank" rel="noopener noreferrer">@taxiprivatetravel24hours</a><br />
-              <span className="text-yellow-400">Facebook:</span> <a href="https://www.facebook.com/profile.php?id=61558652704864" target="_blank" rel="noopener noreferrer">Ntp Taxi Thailand</a><br />
+              <span className="text-yellow-400">Facebook:</span> <a href="https://www.facebook.com/profile.php?id=61558652704864" target="_blank" rel="noopener noreferrer">Ntp Taxi Thailand</a><br />-
               <span className="text-yellow-400">Email:</span> Tee08042541@gmail.com
             </p>
             <p className="text-gray-300 text-sm sm:text-base mt-3 sm:mt-4">
