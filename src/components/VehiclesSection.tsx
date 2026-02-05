@@ -36,7 +36,7 @@ export function VehiclesSection() {
       seats: t('vehiclesSection.vehicles.van.seats'),
       features: t('vehiclesSection.vehicles.van.features', { returnObjects: true }) as string[],
       imageQuery: 'hiace van interior',
-      image: "/van.jpg"
+      image: "/van2.jpg"
     }
   ];
 
